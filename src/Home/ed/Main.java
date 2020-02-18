@@ -2,14 +2,14 @@ package Home.ed;
 
 import java.util.Scanner;
 
-   import static java.lang.Math.*;
+import static java.lang.Math.*;
 
     public class Main {
 
         public static void main(String [] args) {
-            double a = 223;
             CalculatorWithOperator A = new CalculatorWithOperator();
             CalculatoeWithMath B = new CalculatoeWithMath();
+            CalculatoeWithCounter C= new CalculatoeWithCounter();
 
        /* Первый вариант домашки
        A.a = 28;
@@ -30,13 +30,16 @@ import java.util.Scanner;
     }
     */
             Scanner r = new Scanner(System.in);
-            int d = r.nextInt();
-            A.suma(10,5,0);
+          //  int a = r.nextInt();
+
+           /* A.suma(10,5,0);
             double c = B.suma(B.proiz(15,7) ,B.stepen(B.chast(28.0,5.0),2),4.1);
             System.out.println(c);
-            System.out.println( c /0.0d);
+            System.out.println( d /0.0d);
 
-            System.out.println( );
+            */
+
+            System.out.println(C.E);
 
 
         }

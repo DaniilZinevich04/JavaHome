@@ -1,7 +1,9 @@
 package Home.ed;
 
-public class CalculatorWithOperator {
-    /* ПЕрвый вариант домашки
+import java.util.Scanner;
+
+public class CalculatorWithOperator implements ICalc {
+    /* Первый вариант домашки
        double suma() {
            b = c + a;
            return b;
@@ -24,22 +26,28 @@ public class CalculatorWithOperator {
        }
 
       */
-    double  suma(double a,double c,double b) {
-        a = a+b+c;
-        return  a;
+    Scanner W = new Scanner(System.in);
+    double a = W.nextInt();
+    double b = W.nextInt();
+    double c = W.nextInt();
+
+    public double suma(double a, double b, double c) {
+        a = a + b + c;
+        return a;
     }
 
-    double raz(double a,double b ) {
-        a=a-b;
-        return a ;
+    public double raz(double a, double b) {
+        a = a - b;
+        return a;
     }
 
-    double proiz(double a,double b) {
-        a *=  b;
-        return a ;
+    public double proiz(double a, double b) {
+        a *= b;
+        return a;
     }
 
-    double chast(double a,double b) {
+
+   public double chast(double a,double b) {
 
         double c= a / b;
         return  c;
