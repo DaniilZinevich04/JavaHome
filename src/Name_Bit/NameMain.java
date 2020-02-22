@@ -1,6 +1,6 @@
 package Name_Bit;
 import java.util.Scanner;
-public class Name {
+public class NameMain {
     public static void main(String[] args) {
         Scanner a = new Scanner(System.in);
         System.out.print("Добро пожаловать \n Как вас зовут? ");
