@@ -8,16 +8,17 @@ public class Name {
         String A = "Вася";
         String C= "";
         String B = "Настя";
-        if (name.equalsIgnoreCase(A)) {
+        boolean result1 = name.equalsIgnoreCase(A);
+        boolean result2 = name.equalsIgnoreCase(B);
+        if (result1) {
             System.out.println("Как дела, дружище ?");
-        } else if (name.equalsIgnoreCase(B)) {
+        } else if (result2) {
             System.out.println("Что нового красавица ?");
         } else
-        {
-            System.out.println(name + ", кто ты есть по жизни ?");
+        { System.out.println(name + ", кто ты есть по жизни ?"); }
 
 
-        }
     }
+
 }
 
