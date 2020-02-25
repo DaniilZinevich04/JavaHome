@@ -17,7 +17,7 @@ public class MassivMain {
 
 
         //  2.1
-
+/*
         int i = -1;
         while (i < 10) {
             i++;
@@ -79,6 +79,8 @@ public class MassivMain {
 
 
 
+
+ */
 
     }
 
