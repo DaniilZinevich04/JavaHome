@@ -4,7 +4,7 @@ import static java.lang.Math.*;
 
 public class CalculatoeWithMath extends CalculatorWithOperator{
 
-    public double stepen(double a, double b) {
+    public double step(double a, double b) {
 
         return pow(a, b);
     }
