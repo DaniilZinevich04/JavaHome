@@ -5,7 +5,7 @@ public class CountryMain  {
         System.out.println("Area : "+ECountry.Belarus.getArea());
         System.out.println("Area : "+ECountry.Russa.getPeople());
         Integer a =Integer.valueOf(ECountry.Russa.getArea());
-        boolean b = a == ECountry.Russa.getArea();
+        boolean b = a == ECountry.Argentina.getArea();
         System.out.println(b);
 
 
