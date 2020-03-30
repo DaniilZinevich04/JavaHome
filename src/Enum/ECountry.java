@@ -5,6 +5,7 @@ import java.awt.geom.Area;
 public enum ECountry implements ICountry {
     Belarus(191_123,2_223_212),
     Russa(123_213,2_113_222),
+    SCOTLAND(78_722, 5_438_000),
     Argentina(12_1,0);
 
     private int area;
@@ -24,6 +25,7 @@ public enum ECountry implements ICountry {
     public int getPeople() {
         return people;
     }
+
 
 
 }

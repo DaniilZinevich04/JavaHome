@@ -1,4 +1,4 @@
-package Enum;
+package Enum.Searching;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,7 +12,7 @@ public class RegExMain {
 
         String wordSearch = "Пьер";
 
-        System.out.println("Сборка слов \"" + wordSearch + "\" : " + count.textSearch(text, wordSearch));
+        System.out.println("Сборка слов \"" + wordSearch + "\" : " + count.search(text, wordSearch));
 
     }
 

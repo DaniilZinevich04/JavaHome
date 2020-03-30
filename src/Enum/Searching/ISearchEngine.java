@@ -1,6 +1,6 @@
 package Enum.Searching;
 
 public interface ISearchEngine {
-    public int search ();
+    public int search (String strin,String word);
 
 }

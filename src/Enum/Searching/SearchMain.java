@@ -4,10 +4,10 @@ public class SearchMain {
     public static void main(String[] args) {
 
 
-        String str = "Я Люблю Java";
-        System.out.println(str.matches( "h*"));
-        System.out.println(str.matches( "h+"));
-        System.out.println(str.matches( "h?"));
+        String st = "Я люблю JAVA";
+        System.out.println(st.matches( "h*"));
+        System.out.println(st.matches( "h+"));
+        System.out.println(st.matches( "h?"));
 
 
 
