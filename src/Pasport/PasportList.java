@@ -26,7 +26,7 @@ public class PasportList {
             passportnumber.add(pass);
         }
         long delta = System.currentTimeMillis() - start;
-        System.out.println("Размер массива  : " + passportnumber.size());
+        System.out.println("Размер массива 'njnuj  : " + passportnumber.size());
         System.out.println("Время добавленния элементов в массив  : " + delta + " ms\n");
 
     }
